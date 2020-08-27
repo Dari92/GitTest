@@ -27,14 +27,14 @@
         app:layout_constraintGuide_percent="0.5" />
 
     <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline7"
+        android:id="@+id/guidelineTop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.2" />
 
     <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline8"
+        android:id="@+id/guidelineDown"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -52,7 +52,7 @@
         app:srcCompat="@drawable/im_docs" />
 
     <ImageView
-        android:id="@+id/imImageleft"
+        android:id="@+id/imImageleftZ"
         android:layout_width="248dp"
         android:layout_height="152dp"
         android:layout_marginTop="36dp"
