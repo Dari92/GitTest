@@ -140,7 +140,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/leftLinearLayout"
+        android:id="@+id/leftLinearLay22out"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:orientation="vertical"
