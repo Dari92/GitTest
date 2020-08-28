@@ -11,6 +11,9 @@ class MainActivity : AppCompatActivity() {
 
         //test
         println("test")
+        var test1: Int
+        var test2: Int
+
 
     }
 }
