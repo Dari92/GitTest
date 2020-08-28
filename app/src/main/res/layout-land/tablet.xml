@@ -20,46 +20,52 @@
         app:layout_constraintGuide_percent="0.8" />
 
     <androidx.constraintlayout.widget.Guideline
+<<<<<<< HEAD
         android:id="@+id/guideline6test3"
+=======
+        android:id="@+id/guidelineMiddle"
+>>>>>>> developer
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.5" />
 
     <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline7"
+        android:id="@+id/guidelieTop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.2" />
+        app:layout_constraintGuide_begin="120dp" />
 
     <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline8"
+        android:id="@+id/guidelineDown"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.8" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imImagerigth"
         android:layout_width="257dp"
         android:layout_height="157dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
         app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
-        app:layout_constraintTop_toTopOf="@+id/guideline7"
+        app:layout_constraintTop_toTopOf="@+id/guidelieTop"
         app:srcCompat="@drawable/im_docs" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imImageleftZ"
         android:layout_width="248dp"
         android:layout_height="152dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
         app:layout_constraintEnd_toStartOf="@+id/guideline5"
         app:layout_constraintHorizontal_bias="0.55"
         app:layout_constraintStart_toStartOf="@+id/guideline6"
-        app:layout_constraintTop_toTopOf="@+id/guideline7"
+        app:layout_constraintTop_toTopOf="@+id/guidelieTop"
         app:srcCompat="@drawable/im_notes" />
 
     <Button
@@ -102,6 +108,7 @@
         app:layout_constraintStart_toStartOf="@+id/imageView2" />
 
     <LinearLayout
+        android:id="@+id/rightLinearLayout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -111,13 +118,13 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/imageView7"
+            android:id="@+id/firstImageLV"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             app:srcCompat="@drawable/im_teardown" />
 
         <ImageView
-            android:id="@+id/imageView9"
+            android:id="@+id/secondImageLV"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             app:srcCompat="@drawable/im_teardown" />
@@ -125,18 +132,19 @@
         <ImageView
             android:id="@+id/imageView10"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="101dp"
             app:srcCompat="@drawable/im_teardown" />
 
         <ImageView
-            android:id="@+id/imageView11"
+            android:id="@+id/imgFinal"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="101dp"
             app:srcCompat="@drawable/im_teardown" />
 
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/leftLinearLay22out"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -145,7 +153,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/imageView12"
+            android:id="@+id/firstImgLVLeft"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             app:srcCompat="@drawable/im_cart" />
@@ -153,13 +161,14 @@
         <ImageView
             android:id="@+id/imageView15"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+
+            android:layout_height="101dp"
             app:srcCompat="@drawable/im_cart" />
 
         <ImageView
             android:id="@+id/imageView16"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="101dp"
             app:srcCompat="@drawable/im_cart" />
 
     </LinearLayout>
