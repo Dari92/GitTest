@@ -11,6 +11,8 @@ class MainActivity : AppCompatActivity() {
 
         //test
         println("test")
+        var primerVar = 5
+
 
     }
 }
