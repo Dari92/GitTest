@@ -128,13 +128,13 @@
         <ImageView
             android:id="@+id/imageView10"
             android:layout_width="match_parent"
-            android:layout_height="101dp"
+            android:layout_height="100dp"
             app:srcCompat="@drawable/im_teardown" />
 
         <ImageView
             android:id="@+id/imgFinal"
             android:layout_width="match_parent"
-            android:layout_height="101dp"
+            android:layout_height="100dp"
             app:srcCompat="@drawable/im_teardown" />
 
     </LinearLayout>
@@ -157,7 +157,6 @@
         <ImageView
             android:id="@+id/imageView15"
             android:layout_width="match_parent"
-
             android:layout_height="101dp"
             app:srcCompat="@drawable/im_cart" />
 
