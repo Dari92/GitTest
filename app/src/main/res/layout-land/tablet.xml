@@ -157,13 +157,13 @@
         <ImageView
             android:id="@+id/imageView15"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="101dp"
             app:srcCompat="@drawable/im_cart" />
 
         <ImageView
             android:id="@+id/imageView16"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="101dp"
             app:srcCompat="@drawable/im_cart" />
 
     </LinearLayout>
